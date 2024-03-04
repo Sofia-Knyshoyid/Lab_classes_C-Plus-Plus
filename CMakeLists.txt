@@ -37,7 +37,11 @@ message(" + Znaleziono źródła bez main.cpp: ${SOURCES_WITHOUT_MAIN}")
 
 
 ############ dodanie binarki z mainem i danymi studenta
-add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES} "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
+if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
+   add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES} "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
+else()
+   add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES})
+endif()
 
 
 ############ KOMENDA: make run
