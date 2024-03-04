@@ -113,7 +113,7 @@ ________________________________________________________________________________
    5. Odpalane są też inne narzędzia takie jak [cppcheck](http://cppcheck.net/), czy [fawfinde](https://dwheeler.com/flawfinder/) i inne. One nie odejmują punktów, no ale mają pomóc w pisaniu porządnych programów. Nie olewajmy tego.
    6. Antyplagiat - za wykrycie plagiatu (jest specjalne narzędzie) otrzymuje się 0 punktów. Wysyłajmy więc swoje!
 ____________________________________________________________________________________
-## Najczestrze pytania/błędy/problemy:
+## Najczęstsze pytania/błędy/problemy:
 1. Czekam na sugestie...
 
 ____________________________________________________________________________________

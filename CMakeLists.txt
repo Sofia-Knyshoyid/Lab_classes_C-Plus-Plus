@@ -84,4 +84,4 @@ add_custom_target(ctags
         COMMAND ctags -x --c++-types=f --extras --format=1 ${HEADERS} ${SOURCES_WITHOUT_MAIN})
 
 ############ dodanie podprojektu z testami:
-add_subdirectory(tests)
+add_subdirectory(unit_tests)
