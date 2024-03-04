@@ -164,19 +164,18 @@ The rest will be taken care of automatically. You can check the `GRADE.md` file 
 ## Project Structure
 
     .
-    ├── lab2systems                # directory containing exercises
-    |   ├── CMakeLists.txt          # CMake configuration file - the file is to open out project in our IDE
-    |   ├── main.cpp                # main file - here we can test out solution manually, but it is not required
-    |   ├── user.h                  # file with struct `User` to use in out implementation
-    |   ├── linux.h                 # file to implement class `Linux` with methods' declaration
-    |   ├── linux.cpp               # file to create definitions of methods from class `Linux`
-    |   ├── windows.h               # file to implement class `Windows` with methods' declaration
-    |   ├── windows.cpp             # file to create definitions of methods from class `Windows`
-    |   ├── macos.h                 # file where You can implement class `MacOs`
-    |   ├── macos.cpp               # file to add definitions of methods from class `MacOs`
-    |   ├── tests                   # here are tests for exercise, inner CMakeLists.txt, GTest library used by tests
-    │   │   ├── CMakeLists.txt      # iner CMake for tests - it is included by outter CMake
-    │   │   ├── linuxTests.cpp      # files with tests for exercise - mandatory
-    │   │   ├── windowsTests.cpp    # files with tests for exercise - optional
-    │   │   └── lib                 # directory containing GTest library
-    |   └── README.md               # this file
+    ├── CMakeLists.txt          # CMake configuration file - the file is to open out project in our IDE
+    ├── main.cpp                # main file - here we can test out solution manually, but it is not required
+    ├── user.h                  # file with struct `User` to use in out implementation
+    ├── linux.h                 # file to implement class `Linux` with methods' declaration
+    ├── linux.cpp               # file to create definitions of methods from class `Linux`
+    ├── windows.h               # file to implement class `Windows` with methods' declaration
+    ├── windows.cpp             # file to create definitions of methods from class `Windows`
+    ├── macos.h                 # file where You can implement class `MacOs`
+    ├── macos.cpp               # file to add definitions of methods from class `MacOs`
+    ├── tests                   # here are tests for exercise, inner CMakeLists.txt, GTest library used by tests
+    │   ├── CMakeLists.txt      # iner CMake for tests - it is included by outter CMake
+    │   ├── linuxTests.cpp      # files with tests for exercise - mandatory
+    │   ├── windowsTests.cpp    # files with tests for exercise - optional
+    │   └── lib                 # directory containing GTest library
+    └── README.md               # this file
