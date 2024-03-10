@@ -1,0 +1,117 @@
+[  9%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 18%] Linking CXX static library ../../../lib/libgtest.a
+[ 18%] Built target gtest
+[ 27%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 36%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 36%] Built target gtest_main
+[ 45%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/linuxTests.cpp.o
+[ 63%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/linux.cpp.o
+[ 63%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/windowsTests.cpp.o
+[ 72%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/macos.cpp.o
+[ 90%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/user.cpp.o
+[ 90%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/windows.cpp.o
+/tmp/tmp48vosjn_/student/windows.cpp:7:2: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+    7 | #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+/tmp/tmp48vosjn_/student/linux.cpp:7:2: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+    7 | #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+/tmp/tmp48vosjn_/student/macos.cpp:7:2: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+    7 | #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" // po zaimplementowaniu sugeruje usuniecie tej linijki - nie chcemy warningow
+      |  ^~~~~~~
+In file included from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/gtest.h:72,
+                 from /tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:3:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_defaultConstructor_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:55:42: error: ‘class Linux’ has no member named ‘distribution’
+   55 |     ASSERT_EQ(defaultDistribution, linux.distribution());
+      |                                          ^~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_constructorWithSingleArgument_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:65:29: error: too many initializers for ‘Linux’
+   65 |     Linux linux(distribution);
+      |                             ^
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:69:35: error: ‘class Linux’ has no member named ‘distribution’
+   69 |     ASSERT_EQ(distribution, linux.distribution());
+      |                                   ^~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_destructor_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:78:15: warning: unused variable ‘linux’ [-Wunused-variable]
+   78 |         Linux linux;
+      |               ^~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_addSingleUser_expectedUserIdReturned_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:99:37: error: ‘class Linux’ has no member named ‘add_user’
+   99 |     ASSERT_EQ(expectedUserId, linux.add_user(username, userpassword));
+      |                                     ^~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_user_expectedNewlyAddedUserReturned_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:113:25: error: ‘class Linux’ has no member named ‘add_user’
+  113 |     auto userId = linux.add_user(username, userpassword);
+      |                         ^~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:115:35: error: ‘class Linux’ has no member named ‘user’
+  115 |     ASSERT_EQ(expectedUser, linux.user(userId));
+      |                                   ^~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_userHomeDirectory_expectedCorrectUserHomeDirectoryReturned_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:127:25: error: ‘class Linux’ has no member named ‘add_user’
+  127 |     auto userId = linux.add_user(username, userpassword);
+      |                         ^~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:131:44: error: ‘class Linux’ has no member named ‘user_home_directory’
+  131 |     ASSERT_EQ(expectedHomeDirectory, linux.user_home_directory(userId));
+      |                                            ^~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:139:62: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  139 |         const auto openSourceSympathizersBeforeTest = Linux::open_source_sympathizers();
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:143:64: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  143 |         ASSERT_EQ(openSourceSympathizersBeforeTest + 1, Linux::open_source_sympathizers());
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:141:15: warning: unused variable ‘linux’ [-Wunused-variable]
+  141 |         Linux linux;
+      |               ^~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:147:62: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  147 |         const auto openSourceSympathizersBeforeTest = Linux::open_source_sympathizers();
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:149:30: error: too many initializers for ‘Linux’
+  149 |         Linux linux("unknown");
+      |                              ^
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:151:64: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  151 |         ASSERT_EQ(openSourceSympathizersBeforeTest + 1, Linux::open_source_sympathizers());
+      |                                                                ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:155:62: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  155 |         const auto openSourceSympathizersBeforeTest = Linux::open_source_sympathizers();
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:159:60: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  159 |         ASSERT_EQ(openSourceSympathizersBeforeTest, Linux::open_source_sympathizers());
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:163:62: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  163 |         const auto openSourceSympathizersBeforeTest = Linux::open_source_sympathizers();
+      |                                                              ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:165:60: error: ‘open_source_sympathizers’ is not a member of ‘Linux’
+  165 |         ASSERT_EQ(openSourceSympathizersBeforeTest, Linux::open_source_sympathizers());
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_characterType_definedInsideClass_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:175:70: error: ‘character_type’ is not a member of ‘Linux’
+  175 |     constexpr bool characterTypeIsChar = std::is_same_v<char, Linux::character_type>;
+      |                                                                      ^~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:175:47: error: template argument 2 is invalid
+  175 |     constexpr bool characterTypeIsChar = std::is_same_v<char, Linux::character_type>;
+      |                                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:173:11: warning: unused variable ‘linux’ [-Wunused-variable]
+  173 |     Linux linux;
+      |           ^~~~~
+In file included from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/gtest-printers.h:115,
+                 from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/gtest-matchers.h:48,
+                 from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/internal/gtest-death-test-internal.h:47,
+                 from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/gtest-death-test.h:43,
+                 from /tmp/tmp48vosjn_/student/unit_tests/lib/googletest/include/gtest/gtest.h:65:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp: In member function ‘virtual void LinuxTester_testOptionalGraphicEnvironment_Test::TestBody()’:
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:189:28: error: ‘class Linux’ has no member named ‘graphic_environment’
+  189 |         ASSERT_FALSE(linux.graphic_environment()); // not initialised
+      |                            ^~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:192:15: error: ‘class Linux’ has no member named ‘set_graphic_environment’
+  192 |         linux.set_graphic_environment(expectedGraphicEnvironment);
+      |               ^~~~~~~~~~~~~~~~~~~~~~~
+/tmp/tmp48vosjn_/student/unit_tests/linuxTests.cpp:194:53: error: ‘class Linux’ has no member named ‘graphic_environment’
+  194 |         ASSERT_EQ(expectedGraphicEnvironment, linux.graphic_environment().value());
+      |                                                     ^~~~~~~~~~~~~~~~~~~
+make[3]: *** [unit_tests/CMakeFiles/unit_tests.dir/build.make:76: unit_tests/CMakeFiles/unit_tests.dir/linuxTests.cpp.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/Makefile2:318: unit_tests/CMakeFiles/unit_tests.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:325: unit_tests/CMakeFiles/unit_tests.dir/rule] Error 2
+make: *** [Makefile:247: unit_tests] Error 2
