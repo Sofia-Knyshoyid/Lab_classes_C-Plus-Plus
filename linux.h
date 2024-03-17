@@ -7,7 +7,8 @@
 #include <cstdint> // uint32_t
 #include <utility> // std::pair
 
-struct User;  // declaration instead of include
+#include "user.h"
+// struct User;  // declaration instead of include
 
 /**
 Państwa zadaniem jest napisanie klasy Linux, która ma zawierać następujące składowe (typy do uzupełnienia):
@@ -50,9 +51,27 @@ Oraz następujące metody (poza powyższymi getterami):
 
 class Linux
 {
+private:
+    std::string distribution_;
+    static std::size_t open_source_sympathizers_;
+    static std::vector<User> users_;
+    std::optional<std::string> graphic_environment_;
     // TODO:
 public:
     // TODO:
+    typedef char character_type;
+    std::string distribution() const;
+    static std::size_t open_source_sympathizers();
+    Linux();
+    Linux(std::string distr);
+    ~Linux();
+    std::size_t add_user(std::string user_name, std::string password);
+    static std::vector<User> users_getter();
+    User user(int user_id) const;
+    std::string user_home_directory(int user_id) const;
+    std::optional<std::string> graphic_environment() const;
+    void set_graphic_environment(std::optional<std::string> str);
 };
+
 
 #endif // LINUX_H
