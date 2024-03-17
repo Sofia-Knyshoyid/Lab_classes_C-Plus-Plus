@@ -1,0 +1,27 @@
+/tmp/tmpgbwrjdl_/student/linux.h:66:5: warning: Class 'Linux' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Linux(std::string distr);
+    ^
+/tmp/tmpgbwrjdl_/student/linux.cpp:19:21: warning: Function parameter 'distr' should be passed by const reference. [passedByValue]
+Linux::Linux(string distr) : distribution_(distr) {
+                    ^
+/tmp/tmpgbwrjdl_/student/linux.cpp:31:0: warning: The function 'distribution' is never used. [unusedFunction]
+string Linux::distribution() const {
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:36:0: warning: The function 'open_source_sympathizers' is never used. [unusedFunction]
+size_t Linux::open_source_sympathizers() {
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:41:0: warning: The function 'add_user' is never used. [unusedFunction]
+size_t Linux::add_user(string user_name, string password){
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:47:0: warning: The function 'users_getter' is never used. [unusedFunction]
+vector<User> Linux::users_getter() {
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:52:0: warning: The function 'user' is never used. [unusedFunction]
+User Linux::user(int user_id) const{
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:57:0: warning: The function 'user_home_directory' is never used. [unusedFunction]
+string Linux::user_home_directory(int user_id) const{
+^
+/tmp/tmpgbwrjdl_/student/linux.cpp:63:0: warning: The function 'graphic_environment' is never used. [unusedFunction]
+optional<std::string> Linux::graphic_environment() const {
+^
