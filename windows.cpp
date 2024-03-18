@@ -22,10 +22,10 @@ Windows::Windows(string ver) : version_(ver) {
 }
 
 
-Windows::~Windows() {
-    cout << "Windows " << version_ << endl;
-    --activated_systems_;
-}
+//Windows::~Windows() {
+//    cout << "Windows " << version_ << endl;
+//    --activated_systems_;
+//}
 
 // getter for version_
 string Windows::version() const {

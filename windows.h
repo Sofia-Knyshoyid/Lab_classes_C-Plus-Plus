@@ -59,7 +59,7 @@ public:
     static std::size_t activated_systems();
     Windows();
     Windows(std::string version);
-    ~Windows();
+//    ~Windows();
     std::size_t add_user(std::string user_name, std::string password);
     static std::vector<User> users_getter();
     User user(int user_id) const;
