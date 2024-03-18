@@ -6,7 +6,8 @@
 #include <cstdint> // uint32_t
 #include <utility> // std::pair
 
-struct User;
+#include "user.h"
+// struct User;
 
 /**
 Państwa zadaniem jest napisanie klasy Windows, która ma zawierać następujące składowe (typy do uzupełnienia):
@@ -42,13 +43,27 @@ Oraz następujące metody (poza powyższymi getterami):
 8. Po dokonaniu implementacji proszę zakomentować makro `UNIMPLEMENTED_WINDOWS_CLASS`
  **/
 
-#define UNIMPLEMENTED_WINDOWS_CLASS
+//#define UNIMPLEMENTED_WINDOWS_CLASS
 
 class Windows
 {
+private:
+    std::string version_;
+    static std::size_t activated_systems_;
+    static std::vector<User> users_;
     // TODO:
 
 public:
+    typedef wchar_t character_type;
+    std::string version() const;
+    static std::size_t activated_systems();
+    Windows();
+    Windows(std::string version);
+    ~Windows();
+    std::size_t add_user(std::string user_name, std::string password);
+    static std::vector<User> users_getter();
+    User user(int user_id) const;
+    std::string user_home_directory(int user_id) const;
     // TODO:
 };
 
