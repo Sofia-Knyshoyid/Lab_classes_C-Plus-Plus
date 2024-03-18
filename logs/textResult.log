@@ -1,4 +1,4 @@
-Running main() from /tmp/tmpgbwrjdl_/student/unit_tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmpj1xrrx4_/student/unit_tests/lib/googletest/src/gtest_main.cc
 [==========] Running 16 tests from 2 test suites.
 [----------] Global test environment set-up.
 [----------] 9 tests from LinuxTester
@@ -24,52 +24,31 @@ Running main() from /tmp/tmpgbwrjdl_/student/unit_tests/lib/googletest/src/gtest
 
 [----------] 7 tests from WindowsTester
 [ RUN      ] WindowsTester.defaultConstructor
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:49: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.defaultConstructor (0 ms)
+[       OK ] WindowsTester.defaultConstructor (0 ms)
 [ RUN      ] WindowsTester.constructorWithSingleArgument
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:65: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.constructorWithSingleArgument (0 ms)
+[       OK ] WindowsTester.constructorWithSingleArgument (0 ms)
 [ RUN      ] WindowsTester.addSingleUser_expectedUserIdReturned
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:83: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.addSingleUser_expectedUserIdReturned (0 ms)
+[       OK ] WindowsTester.addSingleUser_expectedUserIdReturned (0 ms)
 [ RUN      ] WindowsTester.user_expectedNewlyAddedUserReturned
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:101: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.user_expectedNewlyAddedUserReturned (0 ms)
+[       OK ] WindowsTester.user_expectedNewlyAddedUserReturned (0 ms)
 [ RUN      ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:121: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned (0 ms)
+[       OK ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned (0 ms)
 [ RUN      ] WindowsTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:141: Failure
-Failed
-Function not implemented
+/tmp/tmpj1xrrx4_/student/unit_tests/windowsTests.cpp:164: Failure
+Expected equality of these values:
+  openSourceSympathizersBeforeTest + 1
+    Which is: 1
+  Windows::activated_systems()
+    Which is: 0
 [  FAILED  ] WindowsTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges (0 ms)
 [ RUN      ] WindowsTester.characterType_definedInsideClass
-/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp:172: Failure
-Failed
-Function not implemented
-[  FAILED  ] WindowsTester.characterType_definedInsideClass (0 ms)
+[       OK ] WindowsTester.characterType_definedInsideClass (0 ms)
 [----------] 7 tests from WindowsTester (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 16 tests from 2 test suites ran. (1 ms total)
-[  PASSED  ] 9 tests.
-[  FAILED  ] 7 tests, listed below:
-[  FAILED  ] WindowsTester.defaultConstructor
-[  FAILED  ] WindowsTester.constructorWithSingleArgument
-[  FAILED  ] WindowsTester.addSingleUser_expectedUserIdReturned
-[  FAILED  ] WindowsTester.user_expectedNewlyAddedUserReturned
-[  FAILED  ] WindowsTester.userHomeDirectory_expectedCorrectUserHomeDirectoryReturned
+[==========] 16 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 15 tests.
+[  FAILED  ] 1 test, listed below:
 [  FAILED  ] WindowsTester.instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges
-[  FAILED  ] WindowsTester.characterType_definedInsideClass
 
- 7 FAILED TESTS
+ 1 FAILED TEST

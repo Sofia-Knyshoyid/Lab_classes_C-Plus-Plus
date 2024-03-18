@@ -10,19 +10,19 @@
 -- Check for working CXX compiler: /usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
-Katalog do zbudowanego projektu: /tmp/tmpgbwrjdl_/student/build
- + Znaleziono nagłówki: /tmp/tmpgbwrjdl_/student/linux.h;/tmp/tmpgbwrjdl_/student/macos.h;/tmp/tmpgbwrjdl_/student/user.h;/tmp/tmpgbwrjdl_/student/windows.h
- + Znaleziono źródła: /tmp/tmpgbwrjdl_/student/linux.cpp;/tmp/tmpgbwrjdl_/student/macos.cpp;/tmp/tmpgbwrjdl_/student/main.cpp;/tmp/tmpgbwrjdl_/student/user.cpp;/tmp/tmpgbwrjdl_/student/windows.cpp
- + Znaleziono źródła bez main.cpp: /tmp/tmpgbwrjdl_/student/linux.cpp;/tmp/tmpgbwrjdl_/student/macos.cpp;/tmp/tmpgbwrjdl_/student/user.cpp;/tmp/tmpgbwrjdl_/student/windows.cpp
+Katalog do zbudowanego projektu: /tmp/tmpj1xrrx4_/student/build
+ + Znaleziono nagłówki: /tmp/tmpj1xrrx4_/student/linux.h;/tmp/tmpj1xrrx4_/student/macos.h;/tmp/tmpj1xrrx4_/student/user.h;/tmp/tmpj1xrrx4_/student/windows.h
+ + Znaleziono źródła: /tmp/tmpj1xrrx4_/student/linux.cpp;/tmp/tmpj1xrrx4_/student/macos.cpp;/tmp/tmpj1xrrx4_/student/main.cpp;/tmp/tmpj1xrrx4_/student/user.cpp;/tmp/tmpj1xrrx4_/student/windows.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmpj1xrrx4_/student/linux.cpp;/tmp/tmpj1xrrx4_/student/macos.cpp;/tmp/tmpj1xrrx4_/student/user.cpp;/tmp/tmpj1xrrx4_/student/windows.cpp
 	* valgrind found: /usr/bin/valgrind
--- Found Python: /tmp/tmpoho_hc0r/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
+-- Found Python: /tmp/tmp9tkxbclq/teacher/test-venv/bin/python3 (found version "3.11.0") found components: Interpreter 
 -- Looking for pthread.h
 -- Looking for pthread.h - found
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
- + Znaleziono pliki testów: /tmp/tmpgbwrjdl_/student/unit_tests/linuxTests.cpp;/tmp/tmpgbwrjdl_/student/unit_tests/windowsTests.cpp
+ + Znaleziono pliki testów: /tmp/tmpj1xrrx4_/student/unit_tests/linuxTests.cpp;/tmp/tmpj1xrrx4_/student/unit_tests/windowsTests.cpp
  + katalog nagłówków: 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmpgbwrjdl_/student/build
+-- Build files have been written to: /tmp/tmpj1xrrx4_/student/build

@@ -1,10 +1,10 @@
 {
   "tests": 16,
-  "failures": 7,
+  "failures": 1,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2024-03-17T22:42:48Z",
-  "time": "0.001s",
+  "timestamp": "2024-03-18T00:21:23Z",
+  "time": "0s",
   "name": "AllTests",
   "testsuites": [
     {
@@ -13,96 +13,96 @@
       "failures": 0,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2024-03-17T22:42:48Z",
+      "timestamp": "2024-03-18T00:21:23Z",
       "time": "0s",
       "testsuite": [
         {
           "name": "defaultConstructor",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 47,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "constructorWithSingleArgument",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 59,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "destructor",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 73,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "addSingleUser_expectedUserIdReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 88,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "user_expectedNewlyAddedUserReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 102,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "userHomeDirectory_expectedCorrectUserHomeDirectoryReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 118,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 134,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "characterType_definedInsideClass",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 169,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         },
         {
           "name": "testOptionalGraphicEnvironment",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/linuxTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/linuxTests.cpp",
           "line": 180,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "LinuxTester"
         }
@@ -111,123 +111,87 @@
     {
       "name": "WindowsTester",
       "tests": 7,
-      "failures": 7,
+      "failures": 1,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2024-03-17T22:42:48Z",
+      "timestamp": "2024-03-18T00:21:23Z",
       "time": "0s",
       "testsuite": [
         {
           "name": "defaultConstructor",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 46,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:49\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         },
         {
           "name": "constructorWithSingleArgument",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 62,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:65\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         },
         {
           "name": "addSingleUser_expectedUserIdReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 80,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:83\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         },
         {
           "name": "user_expectedNewlyAddedUserReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 98,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:101\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         },
         {
           "name": "userHomeDirectory_expectedCorrectUserHomeDirectoryReturned",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 118,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:121\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         },
         {
           "name": "instanceConstructionAndDestruction_expectedOpenSourceSympathizersChanges",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 138,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
           "classname": "WindowsTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:141\nFailed\nFunction not implemented",
+              "failure": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp:164\nExpected equality of these values:\n  openSourceSympathizersBeforeTest + 1\n    Which is: 1\n  Windows::activated_systems()\n    Which is: 0",
               "type": ""
             }
           ]
         },
         {
           "name": "characterType_definedInsideClass",
-          "file": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp",
+          "file": "\/tmp\/tmpj1xrrx4_\/student\/unit_tests\/windowsTests.cpp",
           "line": 169,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2024-03-17T22:42:48Z",
+          "timestamp": "2024-03-18T00:21:23Z",
           "time": "0s",
-          "classname": "WindowsTester",
-          "failures": [
-            {
-              "failure": "\/tmp\/tmpgbwrjdl_\/student\/unit_tests\/windowsTests.cpp:172\nFailed\nFunction not implemented",
-              "type": ""
-            }
-          ]
+          "classname": "WindowsTester"
         }
       ]
     }
