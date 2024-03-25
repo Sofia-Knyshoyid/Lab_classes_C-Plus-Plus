@@ -1,0 +1,29 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/ninja -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G Ninja -S /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems -B /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/cmake-build-debug
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/cmake-build-debug
+ + Znaleziono nagłówki: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/linux.h;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/macos.h;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/user.h;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/windows.h
+ + Znaleziono źródła: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/linux.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/macos.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/main.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/user.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/windows.cpp
+ + Znaleziono źródła bez main.cpp: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/linux.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/macos.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/user.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/windows.cpp
+	* valgrind found: /usr/bin/valgrind
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+ + Znaleziono pliki testów: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/unit_tests/linuxTests.cpp;/home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/unit_tests/windowsTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sofia/stored_data/cclass/bobottasks/pp2-lab2-systems/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++ --std=c++23 -Wall -Wextra -pedantic -g CMakeFiles/lab2Systems_forStudents.dir/linux.cpp.o CMakeFiles/lab2Systems_forStudents.dir/macos.cpp.o CMakeFiles/lab2Systems_forStudents.dir/main.cpp.o CMakeFiles/lab2Systems_forStudents.dir/user.cpp.o CMakeFiles/lab2Systems_forStudents.dir/windows.cpp.o -o bin/lab2Systems_forStudents 
