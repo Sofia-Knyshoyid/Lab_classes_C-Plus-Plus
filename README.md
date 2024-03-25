@@ -2,7 +2,7 @@
 W zadaniu chodzi o to, aby poćwiczyć używanie klas, a przy okazji poznać/przypomnieć/uzupełnić istotne różnice między systemami z punktu widzenia programowania dla różnych systemów.
 
 ### Utrudnienie - makra preprocesora
-Zadanie zawiera testy automatyczne, które testują czy dana metoda jest zaimplementowana poprawnie. Jeśli metody nie ma a byłaby testowana to byłby błąd kompilacji. Tym samym zadanie można by oddać wyłącznie jako wszystko lub jako nic. Dlatego też korzystam z makr preprocesora, które zależnie od tego czy dana funkcjonalność jest zaimplementowana czy nie aktywują (w trakcie kompilacji) odpowiednie części kodu. Jednakże tym razem jest ich mniej, a tym samym trzeba więcej zaimplementować aby zdybyć punkty.
+Zadanie zawiera testy automatyczne, które testują czy dana metoda jest zaimplementowana poprawnie.
 
 
 Treść do wykonania:
@@ -79,87 +79,6 @@ Oraz następujące metody (poza powyższymi getterami):
 7. Jeśli zrobiłem gdzieś błąd proszę o zgłoszenie.
 8. Po dokonaniu implementacji proszę zakomentować makro `UNIMPLEMENTED_WINDOWS_CLASS`
 
----------
-Klasa `MacOS`:
-1. Jako punkt z aktywnosci można zaimplementować klasę `MacOs` analogicznie jak dla pozostałych systemów (oczywiście jeśli ktoś nie zdobył maks na tych zajęciach)
-2. Jako kolejny dodatkowy punkt z aktywności - jak się utworzy analogiczne testy
-3. Najlepiej jak wrzucisz implementacje do swojego repozytorium, ale proszę pokazać na zajęciach (nie zauważe jak mi ktoś nie pokaże, że zrobił)
-
-____________________________________________________________________________________
-Informacje jak czytać testy znajdują się w materiale [wideo](https://banbye.com/watch/v_vdYsvO6_TE9J), a w nagraniu:
-1. Klonowanie paczki.
-2. Klasa `Linux` - co trzeba zrobić
-2. Omówienie otaczającego kodu - struktura `User`, pliki nagłówkowe i inne typy
-3. Wyjaśnienie dlaczego się przyda implementacja klasy `Linux`
-4. Klasa `Windows` - różnice w treści
-5. Omówienie testów
-____________________________________________________________________________________
-Po implementowaniu powyższych poleceń i zmiany wartości poniższych makr powinno przechodzić
-coraz więcej testów dostępnych w plikach `linuxTests.cpp` i `windowsTests.cpp`
-
-## Uwaga:
-Sugeruję pisać porządnie, czyli deklaracje metod w pliku nagłówkowym, definicje w źródłowym
-w argumentach funkcji przez referencję, proszę też stosować słówko "const" w odpowiednich miejscach.
-Metody wspólne dla wszystkich klas jako statyczne. Jeśli zwracamy stałą czasu kompilacji aby była to metoda `constexpr`.
-
-[Bardziej szczegółowe informacje jak pisać programy w ładnym stylu](https://programowaniec.wordpress.com/2017/11/09/czego-sie-czepiam/) dla zaawansowanych.
-____________________________________________________________________________________
-## Ocenianie:
-1. Ocenia [Bobot](https://gitlab.com/agh-courses/bobot), na ten moment w następujący sposób:
-   1. Kompilacja nadesłanego rozwiązania - bez tego zero punktów. Bobot pracuje na Linuxie, używa kompilatora `g++`.
-   2. Uruchamianie testów - za każdy test, który przejdzie są punkty, ale mogą być odjęte w kolejnych krokach.
-   3. Jeśli program się wywala na którymś z testów (to się pojawia często u osób pracujących na Windowsie - ten system pozwala pisać po nie-swojej pamięci, Linux nie pozwala) lub jest timeout - wtedy będzie przyznane tyle punktów ile przechodzi testów **minus karne punkty**.
-   4. Jest odpalane narzędzie [valgrind](https://valgrind.org/), które sprawdza czy umiemy obsługiwać pamięć w praktyce - jeśli nie to **minus punkt**.
-   5. Odpalane są też inne narzędzia takie jak [cppcheck](http://cppcheck.net/), czy [fawfinde](https://dwheeler.com/flawfinder/) i inne. One nie odejmują punktów, no ale mają pomóc w pisaniu porządnych programów. Nie olewajmy tego.
-   6. Antyplagiat - za wykrycie plagiatu (jest specjalne narzędzie) otrzymuje się 0 punktów. Wysyłajmy więc swoje!
-____________________________________________________________________________________
-## Najczęstsze pytania/błędy/problemy:
-1. Czekam na sugestie...
-
-____________________________________________________________________________________
-# Pytania po implementacji ćwiczenia:
-1. Czego ważnego dla mnie się dzisiaj nauczyłem/nauczyłam?
-
-____________________________________________________________________________________
-# Zadania, które warto zrobić (uwaga: nie będzie za to punktów, tylko coś cenniejszego - umiejętności)
-1. Dodatkowe różnice między systemami zawrzeć w metodach.
-
-____________________________________________________________________________________
-# Jak skonfigurować sobie pracę nad paczką:
-W formie [wideo](https://banbye.com/watch/v_i79PoGIWrjRC) - jest to instrukcja dla innej paczki (z innego kierunku), ale kroki są analogiczne.
-
-**Alternatywnie poniżej jest to spisane w kolejnej sekcji**
-____________________________________________________________________________________
-## Grading (section copied from Mateusz Ślażyński, of course he agreed):
-
-* [ ] Make sure, you have a **private** group
-  * [how to create a group](https://docs.gitlab.com/ee/user/group/#create-a-group)
-* [ ] Fork this project into your private group
-  * [how to create a fork](https://docs.gitlab.com/ee/user/project/repository/forking_workflow.html#creating-a-fork)
-* [ ] Add @bobot-is-a-bot as the new project's member (role: **maintainer**)
-  * [how to add an user](https://docs.gitlab.com/ee/user/project/members/index.html#add-a-user)
-
-## How To Submit Solutions
-
-1. [ ] Clone repository: `git clone` (clone only once the same repository):
-
-    ```bash
-    git clone <repository url>
-    ```
-2. [ ] Solve the exercises
-3. [ ] Commit your changes
-
-    ```bash
-    git add <path to the changed files>
-    git commit -m <commit message>
-    ```
-4. [ ] Push changes to the gitlab main branch
-
-    ```bash
-    git push -u origin main
-    ```
-
-The rest will be taken care of automatically. You can check the `GRADE.md` file for your grade / test results. Be aware that it may take some time (up to one hour) till this file. Details can be found in `./logs/` directory where You can check compilation results, tests logs etc.
 
 ## Project Structure
 
